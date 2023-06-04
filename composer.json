@@ -1,0 +1,25 @@
+{
+    "name": "mirzaev/telegram-registry-people",
+    "type": "robot",
+    "require": {
+        "badfarm/zanzara": "^0.9.0"
+    },
+    "license": "WTFPL",
+    "autoload": {
+        "psr-4": {
+            "mirzaev\\telegram\\registry\\people\\": "mirzaev/telegram/registry/people/system/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arsen Mirzaev Tatyano-Muradovich",
+            "email": "arsen@mirzaev.sexy"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
