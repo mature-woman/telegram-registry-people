@@ -1,8 +1,8 @@
-# Telegram chat-robot implementing a register of people
+# Register of people in telegram chat-robot
 
-⚠️ Documentation and code commenting not added
+⚠️ Documentation and code commentaries are not created! (this is not an important project)
 
-Simple, asynchronous, scalable, easy to update
-The robot sends messages in Russian, but they can easily be replaced with English
+😼Simple, asynchronous, scalable, easy to update
 
-😼 Developed lazily in 2 days
+Messages in Russian, but can easily be replaced with English
+Based on very comfy and easy Zanzara PHP Telegram framework: https://github.com/badfarm/zanzara

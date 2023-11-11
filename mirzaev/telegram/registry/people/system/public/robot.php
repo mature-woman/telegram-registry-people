@@ -9,8 +9,8 @@ use React\Promise\PromiseInterface;
 
 require __DIR__ . '/../../../../../../vendor/autoload.php';
 
-const KEY = require('../settings/key.php');
-const STORAGE = require('../settings/storage.php');
+define('KEY', require('../settings/key.php'));
+define('STORAGE', require('../settings/storage.php'));
 
 $config = new Config();
 $config->setParseMode(Config::PARSE_MODE_MARKDOWN);
